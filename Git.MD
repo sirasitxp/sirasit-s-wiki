@@ -12,3 +12,5 @@ git checkout [name]
 ## Show current status
 git status
 
+## See difference
+git diff
