@@ -14,3 +14,6 @@ git status
 
 ## See difference
 git diff
+
+## Combine to current version
+git rebase [name]
