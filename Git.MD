@@ -4,4 +4,9 @@ Upstream -> Official repository
 
 ## Good Practice
 Don't work on main. Create a branch, work on it, and then merge later.  
-git branch <name>
+git branch [name]  
+
+## Switch to another branch
+git checkout [name]
+
+
