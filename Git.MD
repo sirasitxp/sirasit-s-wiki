@@ -9,4 +9,6 @@ git branch [name]
 ## Switch to another branch
 git checkout [name]
 
+## Show current status
+git status
 
