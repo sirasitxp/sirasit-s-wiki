@@ -36,3 +36,6 @@ It's a smaller part of your web app
 
 ## Creating app component
 python manage.py startapp [app_name]
+
+## Open Python shell
+python manage.py shell
