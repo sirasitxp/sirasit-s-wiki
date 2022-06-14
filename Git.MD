@@ -20,3 +20,6 @@ git rebase [name]
 
 ## Push
 git push [branch] [repository]
+
+## List out remotes
+git remote -v
