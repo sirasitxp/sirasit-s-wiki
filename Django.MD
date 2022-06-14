@@ -15,4 +15,4 @@ pip install django==[version]
 
 
 ## Create new project
-django-admin startproject [project_name]
+django-admin startproject [project_name] .
