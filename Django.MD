@@ -29,3 +29,9 @@ python manage.py migrate
 
 ## Create admin 
 python manage.py createsuperuser
+
+## App Components
+It's a smaller part of your web app
+
+## Creating app component
+python manage.py startapp
