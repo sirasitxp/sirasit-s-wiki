@@ -6,3 +6,6 @@ source bin/activate
 
 ## Deactivate
 deactivate
+
+## Pip freeze for checking installed libraries
+pip freeze
