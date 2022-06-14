@@ -45,3 +45,6 @@ python manage.py shell
 
 ## Create new object in the shell
 [name].objects.create([key1="value1", key2="value 2", ... ])
+
+## Exit Python Shell
+exit()
