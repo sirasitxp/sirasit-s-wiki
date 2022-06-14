@@ -21,5 +21,5 @@ django-admin startproject [project_name] .
 python manage.py runserver
 
 ## Setting.py
-import OS -> So that it works in every Operating System.
-BASE_DIR -> It gives direction to where manage.py is 
+import OS -> So that it works in every Operating System.    
+BASE_DIR -> It gives direction to where manage.py is  
