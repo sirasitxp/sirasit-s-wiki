@@ -16,3 +16,6 @@ pip install django==[version]
 
 ## Create new project
 django-admin startproject [project_name] .
+
+## Run project
+python manage.py runserver
