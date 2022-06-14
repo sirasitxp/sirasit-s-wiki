@@ -39,3 +39,9 @@ python manage.py startapp [app_name]
 
 ## Open Python shell
 python manage.py shell
+
+## List out objects in the shell
+[name].objects.all()
+
+## Create new object in the shell
+[name].objects.create([key1="value1", key2="value 2", ... ])
