@@ -24,7 +24,8 @@ python manage.py runserver
 import OS -> So that it works in every Operating System.    
 BASE_DIR -> It gives direction to where manage.py is  
 
-## Apply changes to modules
+## Apply changes to modules  
+python manage.py makemigrations  
 python manage.py migrate
 
 ## Create admin 
