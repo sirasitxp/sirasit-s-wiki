@@ -9,3 +9,6 @@ deactivate
 
 ## Pip freeze for checking installed libraries
 pip freeze
+
+## Install Django
+pip install django==[version]
