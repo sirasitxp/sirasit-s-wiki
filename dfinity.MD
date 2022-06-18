@@ -3,3 +3,7 @@ dfx --version
 
 ## Create new project
 dfx new [project_name]
+
+
+## Deploy
+dfx deploy
