@@ -1,8 +1,9 @@
 ## Quit
 :q 
 
-## Enter insert mode
-i
 
-## Go back to command(normal) mode
-esc
+## Shortcuts
+i - Enter insert mode  
+esc - Go back to command(normal) mode
+d - Delete
+u - undo
