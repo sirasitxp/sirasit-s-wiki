@@ -4,6 +4,6 @@
 
 ## Shortcuts
 i - Enter insert mode  
-esc - Go back to command(normal) mode
-d - Delete
-u - undo
+esc - Go back to command(normal) mode  
+d - Delete  
+u - undo  
