@@ -29,7 +29,7 @@ def partition(arr, l, r):
             arr[i], arr[j] = arr[j], arr[i]
     arr[i + 1], arr[r] = arr[r], arr[i + 1]
     return i + 1
-
+'''
 a1 = [3, 2, 1]
 a2 = [1, 2, 3]
 a3 = []
@@ -61,4 +61,4 @@ assert a8 == [1, 2, 3, 4, 5, 6, 7]
 assert a9 == [2, 2, 2, 2, 2, 2, 2]
 
 print("If you didn't get an assertion error, this program has run successfully.")
-'''
+
