@@ -8,7 +8,7 @@ QuickSort is a divide and conquer algorithm. It picks an element as a pivot and 
 
 Code Example:
 
-'''
+```python
 def quicksort(arr):
     qs(arr, 0, len(arr) - 1)
 
@@ -61,4 +61,4 @@ assert a8 == [1, 2, 3, 4, 5, 6, 7]
 assert a9 == [2, 2, 2, 2, 2, 2, 2]
 
 print("If you didn't get an assertion error, this program has run successfully.")
-
+```
