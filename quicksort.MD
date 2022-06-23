@@ -6,7 +6,14 @@ QuickSort is a divide and conquer algorithm. It picks an element as a pivot and 
 4.Pick median as a pivot.  
 
 
-Code Example:
+##Algorithm
+1. Pick a pivot.  
+2. Run through an array to and compare with pivot.   
+3. Group elements into partitions(One group is elements greater than pivot, Another group is elements less than pivot.).  
+4. Repeat the process untill every element is sorted.(Using recursion.).  
+
+
+##Code Example:
 
 ```python
 def quicksort(arr):
