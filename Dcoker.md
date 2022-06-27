@@ -9,3 +9,10 @@ https://docs.docker.com/desktop/mac/install/
 ```docker
 docker ps
 ```
+
+# Anatomy
+## Dockerfile
+A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
+
+## Docker ignore
+The .dockerignore file is very similar to the .gitignore file in that it allows you to specify a list of files or directories that Docker is to ignore during the build process. This can come in really handy in certain instances.
