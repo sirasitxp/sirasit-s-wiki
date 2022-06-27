@@ -9,6 +9,10 @@ https://docs.docker.com/desktop/mac/install/
 ```docker
 docker ps
 ```
+## Creating new image
+```docker
+docker build -t [docker hub username]/[appname]:[version] [current directory]
+```
 
 # Anatomy
 ## Dockerfile
