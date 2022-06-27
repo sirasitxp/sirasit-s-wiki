@@ -16,3 +16,7 @@ A Dockerfile is a text document that contains all the commands a user could call
 
 ## Docker ignore
 The .dockerignore file is very similar to the .gitignore file in that it allows you to specify a list of files or directories that Docker is to ignore during the build process. This can come in really handy in certain instances.
+
+# FAQ
+## What is "COPY . ."
+"." Simply means current working directory, so it means copy files from current directory to current directory. 
