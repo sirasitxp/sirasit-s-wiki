@@ -14,3 +14,6 @@ tsc -v
 # Things to know
 ## Transpile file before execution
 Because browser can't understand typescipt. 
+
+## tsconfig.json
+
