@@ -10,3 +10,7 @@ npm install -g typescript
 ```node
 tsc -v
 ```
+
+# Things to know
+## Transpile file before execution
+Because browser can't understand typescipt. 
