@@ -24,6 +24,9 @@ The .dockerignore file is very similar to the .gitignore file in that it allows 
 ## Docker Image
 A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Docker images also act as the starting point when using Docker. An image is comparable to a snapshot in virtual machine (VM) environments.
 
+## Docker Container
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings
+
 # FAQ
 ## What is "COPY . ."
 "." Simply means current working directory, so it means copy files from current directory to current directory. 
