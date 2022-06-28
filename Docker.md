@@ -21,6 +21,12 @@ A Dockerfile is a text document that contains all the commands a user could call
 ## Docker ignore
 The .dockerignore file is very similar to the .gitignore file in that it allows you to specify a list of files or directories that Docker is to ignore during the build process. This can come in really handy in certain instances.
 
+## Docker Image
+A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Docker images also act as the starting point when using Docker. An image is comparable to a snapshot in virtual machine (VM) environments.
+
 # FAQ
 ## What is "COPY . ."
 "." Simply means current working directory, so it means copy files from current directory to current directory. 
+
+## Docker build not working
+Add DOCKER_BUILDKIT=0 in front of the docker build command to print the command output like the previous Docker version.
