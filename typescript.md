@@ -16,4 +16,4 @@ tsc -v
 Because browser can't understand typescipt. 
 
 ## tsconfig.json
-
+Configuration file
