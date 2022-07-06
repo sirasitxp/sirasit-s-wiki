@@ -18,3 +18,7 @@ The server returns a response to the client. The response contains information t
 
 ## What is GraphQL API
 GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
+
+## What is Database Seeding?
+Database seeding is populating a database with an initial set of data. It's common to load seed data such as initial user accounts or dummy data upon initial setup of an application.
+
