@@ -39,3 +39,16 @@ let employeeCode = <number> code;
 let code: any = 123; 
 let employeeCode = code as number;
 ```
+
+## Use strict
+The "use strict" directive was new in ECMAScript version 5.
+
+It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
+
+The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+
+With strict mode, you can not, for example, use undeclared variables.
+### Declaration
+```typescript
+"use strict";
+```
