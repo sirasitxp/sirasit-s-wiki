@@ -52,3 +52,25 @@ With strict mode, you can not, for example, use undeclared variables.
 ```typescript
 "use strict";
 ```
+
+## Types of Objects
+TypeScript has three confusing types: Object, {} and object.
+You can assign null and undefined to all three types if strictNullChecks compiler option is disabled otherwise the compile error occurs.
+
+### Object
+Contains stuff (like toString(), hasOwnProperty()) that is present in all JavaScript objects. Any value (primitive, non-primitive) can be assigned to Object type.
+
+### {}
+{} is an empty object. It is pretty much the same as Object in runtime but different in compile time. In compile time {} doesn't have Object's members and Object has more strict behavior (see the @golmschenk's comment).
+
+### object
+object was introduced in TypeScript 2.2. It is any non-primitive type. You can't assign to it any primitive type like bool, number, string, symbol.
+
+### Thus, if you will try this:
+```typescript
+var strictTypeHeaders: { [key: string]: string } = {}; // non-primitive type
+var header: object = {};
+header = strictTypeHeaders; // its OK
+strictTypeHeaders = header; // causes error "Type 'object' is not assignable to type '{ [key: string]: string }`"
+```
+you will get the compile error on the last line. This happens because { [key: string]: string } type is more specific than object type. There is no any error on header = strictTypeHeaders since both types are non-primitive and object is more common type than { [key: string]: string }
