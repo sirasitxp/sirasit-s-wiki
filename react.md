@@ -8,3 +8,7 @@ npm start
 npm build
 ```
 
+# React Core Concepts
+## Components
+## Props
+## State
