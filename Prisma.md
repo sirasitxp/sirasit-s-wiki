@@ -41,6 +41,14 @@ mutation{
 someEditOperation(dataField:"valueOfField"):returnType
 }
 ```
+### Example
+``` 
+type Mutation {
+  createLink(category: String!, description: String!, imageUrl: String!, title: String!, url: String!): Link!
+  deleteLink(id: String!): Link!
+  updateLink(category: String, description: String, id: String, imageUrl: String, title: String, url: String): Link!
+}
+```
 
 
 
