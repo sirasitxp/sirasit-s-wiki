@@ -22,3 +22,14 @@ GraphQL is a query language for your API, and a server-side runtime for executin
 ## What is Database Seeding?
 Database seeding is populating a database with an initial set of data. It's common to load seed data such as initial user accounts or dummy data upon initial setup of an application.
 
+## Creating Database
+```prisma
+npx prisma db push
+```
+
+## Seeding Database
+```prisma
+npx prisma db seed --preview-feature
+```
+
+
