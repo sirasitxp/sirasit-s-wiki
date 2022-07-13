@@ -32,4 +32,16 @@ npx prisma db push
 npx prisma db seed --preview-feature
 ```
 
+## What is Mutations?
+Mutation queries modify data in the data store and returns a value. It can be used to insert, update, or delete data. Mutations are defined as a part of the schema.
+
+### Syntax
+```prisma
+mutation{
+someEditOperation(dataField:"valueOfField"):returnType
+}
+```
+
+
+
 
