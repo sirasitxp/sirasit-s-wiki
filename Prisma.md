@@ -49,7 +49,8 @@ type Mutation {
   updateLink(category: String, description: String, id: String, imageUrl: String, title: String, url: String): Link!
 }
 ```
-
+## What is Resolvers?
+Resolvers is an object where you will define the implementation for each query and mutation.
 
 
 
