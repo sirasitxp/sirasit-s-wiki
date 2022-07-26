@@ -23,3 +23,6 @@ git push [remote] [branch]
 
 ## List out remotes
 git remote -v
+
+## Cancel merge
+git merge --abort
