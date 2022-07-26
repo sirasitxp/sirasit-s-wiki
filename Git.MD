@@ -1,28 +1,30 @@
 ## Repository
+```
 Origin -> Your local repository  
 Upstream -> Official repository  
-
+```
 ## Good Practice
 Don't work on main. Create a branch, work on it, and then merge later.  
+```
 git branch [name]  
-
+```
 ## Switch to another branch
-git checkout [name]
+```git checkout [name]```
 
 ## Show current status
-git status
+```git status```
 
 ## See difference
-git diff
+```git diff```
 
 ## Combine to current version
-git rebase [name]
+```git rebase [name]```
 
 ## Push
-git push [remote] [branch]
+```git push [remote] [branch]```
 
 ## List out remotes
-git remote -v
+```git remote -v```
 
 ## Cancel merge
-git merge --abort
+```git merge --abort```
