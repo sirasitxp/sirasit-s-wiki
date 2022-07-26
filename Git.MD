@@ -19,7 +19,7 @@ git diff
 git rebase [name]
 
 ## Push
-git push [branch] [repository]
+git push [remote] [branch]
 
 ## List out remotes
 git remote -v
