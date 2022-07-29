@@ -50,6 +50,12 @@ const element = {
 };
 ```
 These objects are called “React elements”. You can think of them as descriptions of what you want to see on the screen. React reads these objects and uses them to construct the DOM and keep it up to date.
+## Elements
+An element describes what you want to see on the screen:
+```JSX
+const element = <h1>Hello, world</h1>;
+```
+Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
 
 ## Components
 Components allow you to build self-contained, reusable snippets of code. If you think of components as LEGO bricks, you can take these individual bricks and combine them together to form larger structures. If you need to update a piece of the UI, you can update the specific component or brick.
