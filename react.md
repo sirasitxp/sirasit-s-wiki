@@ -58,7 +58,23 @@ const element = <h1>Hello, world</h1>;
 Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
 
 ## Components
-Components allow you to build self-contained, reusable snippets of code. If you think of components as LEGO bricks, you can take these individual bricks and combine them together to form larger structures. If you need to update a piece of the UI, you can update the specific component or brick.
-A component is a function that returns UI elements. 
+Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+
+### Function and Class Components
+
+The simplest way to define a component is to write a JavaScript function:
+```JSX
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+You can also use an ES6 class to define a component:
+```JSX
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
 ## Props
 ## State
