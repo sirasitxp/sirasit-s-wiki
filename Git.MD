@@ -40,5 +40,7 @@ git remote -v
 
 ## Cancel merge
 ```
-git merge --abort
+git merge --abort 
+# or
+git reset --hard HEAD
 ```
