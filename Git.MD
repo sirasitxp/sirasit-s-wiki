@@ -41,6 +41,14 @@ git remote -v
 ## Cancel merge
 ```
 git merge --abort 
-# or
+
+OR
+
 git reset --hard HEAD
 ```
+
+## Logging each commits
+```
+git log
+```
+
