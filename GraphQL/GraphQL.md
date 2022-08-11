@@ -59,4 +59,19 @@ fieldName:(root, args, context, info) => { result }
 # context: This is an object shared by all resolvers in a particular query
 # info: It contains information about the execution state of the query, including the field name, path to the field from the root.
 ```
+### Example:
+```graphql
+//resolver function  with no parameters and returning string
+greeting:() => {
+   return "hello from  TutorialsPoint !!!"
+}
+
+//resolver function with no parameters and returning list
+students:() => db.students.list()
+
+//resolver function with arguments and returning object
+studentById:(root,args,context,info) => {
+   return db.students.get(args.id);
+}
+```
 
