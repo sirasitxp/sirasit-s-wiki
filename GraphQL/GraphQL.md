@@ -20,13 +20,13 @@ query query_name{ someField }
 Mutation queries modify data in the data store and returns a value. It can be used to insert, update, or delete data. Mutations are defined as a part of the schema.
 
 ### Syntax
-```prisma
+```graphql
 mutation{
 someEditOperation(dataField:"valueOfField"):returnType
 }
 ```
 ### Example
-``` 
+```graphql
 type Mutation {
   createLink(category: String!, description: String!, imageUrl: String!, title: String!, url: String!): Link!
   deleteLink(id: String!): Link!
