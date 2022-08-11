@@ -81,3 +81,6 @@ studentById:(root,args,context,info) => {
 ## Decorators
 In essence, decorator classes are just a standard interface which returns a function that is then applied to the schema, so they could easily be implemented for GraphQL implementations in other languages.
 
+
+## Resources
+[Decorator](https://www.youtube.com/watch?v=O6A-u_FoEX8)
