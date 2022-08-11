@@ -1,3 +1,4 @@
+
 # What is GraphQL
 GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
 A GraphQL service is created by defining types and fields on those types, then providing functions for each field on each type.
@@ -48,3 +49,8 @@ type Mutation {
 ```
 ## What is Resolvers?
 Resolvers is an object where you will define the implementation for each query and mutation.
+Resolver is a collection of functions that generate response for a GraphQL query. In simple terms, a resolver acts as a GraphQL query handler. Every resolver function in a GraphQL schema accepts four positional arguments as given below.
+
+```graphql
+fieldName:(root, args, context, info) => { result }
+```
