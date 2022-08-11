@@ -1,6 +1,6 @@
 
 # What is GraphQL
-![image](https://user-images.githubusercontent.com/52594844/184219291-446d556e-473b-4c54-8dea-6e2729e45e07.png=500x250)
+![image](https://user-images.githubusercontent.com/52594844/184219291-446d556e-473b-4c54-8dea-6e2729e45e07.png =500x250)
 GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
 A GraphQL service is created by defining types and fields on those types, then providing functions for each field on each type.
 
