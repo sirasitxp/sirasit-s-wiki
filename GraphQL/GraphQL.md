@@ -31,7 +31,8 @@ query myQuery{
 ```
 
 ## What is Mutations?
-Mutation queries modify data in the data store and returns a value. It can be used to insert, update, or delete data. Mutations are defined as a part of the schema.
+Mutation queries modify data in the data store and returns a value. It can be used to insert, update, or delete data.    
+Mutations are defined as a part of the schema.
 
 ### Syntax
 ```graphql
@@ -48,8 +49,9 @@ type Mutation {
 }
 ```
 ## What is Resolvers?
-Resolvers is an object where you will define the implementation for each query and mutation.
-Resolver is a collection of functions that generate response for a GraphQL query. In simple terms, a resolver acts as a GraphQL query handler. Every resolver function in a GraphQL schema accepts four positional arguments as given below.
+Resolvers is an object where you will define the implementation for each query and mutation.  
+Resolver is a collection of functions that generate response for a GraphQL query. In simple terms, a resolver acts as a GraphQL query handler.   
+Every resolver function in a GraphQL schema accepts four positional arguments as given below.
 
 ```graphql
 fieldName:(root, args, context, info) => { result }
