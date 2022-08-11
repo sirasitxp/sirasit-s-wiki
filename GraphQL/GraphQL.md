@@ -55,4 +55,6 @@ Every resolver function in a GraphQL schema accepts four positional arguments as
 
 ```graphql
 fieldName:(root, args, context, info) => { result }
+# root: The object that contains the result returned from the resolver on the parent field.
 ```
+
