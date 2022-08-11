@@ -51,8 +51,7 @@ type Mutation {
 ## What is Resolvers?
 Resolvers is an object where you will define the implementation for each query and mutation.  
 Resolver is a collection of functions that generate response for a GraphQL query. In simple terms, a resolver acts as a GraphQL query handler.   
-Every resolver function in a GraphQL schema accepts four positional arguments as given below.
-
+### Every resolver function in a GraphQL schema accepts four positional arguments as given below.
 ```graphql
 fieldName:(root, args, context, info) => { result }
 # root: The object that contains the result returned from the resolver on the parent field.
