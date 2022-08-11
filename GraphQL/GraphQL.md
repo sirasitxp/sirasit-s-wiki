@@ -16,6 +16,19 @@ query query_name{ someField }
 { someField }
 ```
 
+### Example
+```graphql
+//query with name myQuery
+query myQuery{
+   greeting
+}
+
+// query without any name
+{
+   greeting
+}
+```
+
 ## What is Mutations?
 Mutation queries modify data in the data store and returns a value. It can be used to insert, update, or delete data. Mutations are defined as a part of the schema.
 
