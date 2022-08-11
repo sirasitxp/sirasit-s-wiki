@@ -84,3 +84,4 @@ In essence, decorator classes are just a standard interface which returns a func
 
 ## Resources
 [Decorator](https://www.youtube.com/watch?v=O6A-u_FoEX8)
+[TypeGraphQL](https://www.youtube.com/playlist?list=PLN3n1USn4xlma1bBu3Tloe4NyYn9Ko8Gs)
