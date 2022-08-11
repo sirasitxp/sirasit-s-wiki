@@ -56,5 +56,8 @@ Every resolver function in a GraphQL schema accepts four positional arguments as
 ```graphql
 fieldName:(root, args, context, info) => { result }
 # root: The object that contains the result returned from the resolver on the parent field.
+# args: An object with the arguments passed into the field in the query.
+# context: This is an object shared by all resolvers in a particular query
+# info: It contains information about the execution state of the query, including the field name, path to the field from the root.
 ```
 
