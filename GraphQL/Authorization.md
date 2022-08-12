@@ -21,4 +21,5 @@ class MyObject {
   @Field({ nullable: true })
   hiddenField?: string;
 }
+# We can leave the @Authorized decorator brackets empty or we can specify the role/roles that the user needs to possess in order to get access to the field, query or mutation.
 ```
