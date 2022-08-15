@@ -19,3 +19,8 @@ psql postgres://[username]@localhost/5432/[db_name]
 ```postgresql
 \conninfo
 ```
+
+### Quit
+```
+\q
+```
