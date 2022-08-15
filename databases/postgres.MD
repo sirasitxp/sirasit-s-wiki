@@ -11,6 +11,11 @@ https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1
 ```
 
 ### Connect to DB
-```postgres
+```postgresql
 psql postgres://[username]@localhost/5432/[db_name]
+```
+
+### Check where we are
+```postgresql
+\conninfo
 ```
