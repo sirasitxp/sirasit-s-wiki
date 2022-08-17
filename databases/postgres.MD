@@ -11,9 +11,23 @@ https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1
 sudo -u postgres createuser <username>
 ```
 
+### Creating database
+```terminal
+sudo -u postgres createdb <dbname>
+```
+
+
 
 ## Commands in Postgres
+### Setting user password
+```postgres
+psql=# alter user <username> with encrypted password '<password>';
+```
 
+### Granting privileges on database
+```postgres
+psql=# grant all privileges on database <dbname> to <username> ;
+```
 ### List out users
 ```postgres
 \du
