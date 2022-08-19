@@ -52,5 +52,6 @@ type Mutation {
 ## What is Resolvers?
 Resolvers is an object where you will define the implementation for each query and mutation.
 
-
+## What is Generator?
+A generator determines which assets are created when you run the prisma generate command. The main property provider defines which Prisma Client (language specific) is created - currently, only prisma-client-js is available. Alternatively you can define any Npm package that follows our generator specification. Additionally and optionally you can define a custom output folder for the generated assets with output.
 
