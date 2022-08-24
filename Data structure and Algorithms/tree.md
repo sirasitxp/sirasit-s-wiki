@@ -16,6 +16,6 @@ Top to bottom, left to right
 
 
 ## Traversal
-1. Pre-order: n l r.  
-2. In-order: l n r.  
-3. Post-order: l r n.  
+1. Pre-order: n l r  
+2. In-order: l n r  
+3. Post-order: l r n  
