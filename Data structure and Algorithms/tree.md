@@ -13,3 +13,9 @@ Top to bottom, left to right
 
 ### Perfect
 2 Children in all nodes, 0 child in all leafs.
+
+
+## Traversal
+1. Pre-order: n l r.  
+2. In-order: l n r.  
+3. Post-order: l r n.  
