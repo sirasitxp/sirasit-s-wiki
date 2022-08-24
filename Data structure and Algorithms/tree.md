@@ -19,3 +19,8 @@ Top to bottom, left to right
 1. Pre-order: n l r  
 2. In-order: l n r  
 3. Post-order: l r n  
+
+
+## Breadth First Search
+
+## Depth First Search
