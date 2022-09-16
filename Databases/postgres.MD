@@ -47,3 +47,9 @@ psql postgres://[username]@localhost/5432/[db_name]
 ```
 \q
 ```
+
+## Common issues
+### Port in use
+```base
+sudo pkill -u postgres
+```
