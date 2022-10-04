@@ -16,3 +16,6 @@ pnpm add [package_name]@latest --save-dev
 -------
 yarn add [package_name]@latest --dev
 ```
+
+## What is --save-dev?
+The --save-dev part is important. This will uninstall it, remove the value from your package.json, and then reinstall the latest version and save the new value to your package.json.
