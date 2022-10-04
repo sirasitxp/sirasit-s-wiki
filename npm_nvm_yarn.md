@@ -7,3 +7,12 @@ NPM is Node Package Manager, and it is the meat and potatoes package installer f
 Yarn is the latest and greatest version of NPM. It takes the same methods that NPM uses but stores all of the install information into the app so it’ll work across multiple machines. Yarn also tends to be more stable than NPM. The nice thing about Yarn is that all if not most packages on the NPM site are usable with Yarn. Another advantage to using Yarn is besides caching all installed packages, it installs simultaneously whereas NPM installs everything in order listed in the dependencies. To summon and install Yarn packages use yarn install or yarn i if they both do the same thing, it just depends on how lazy you are in typing.
 ## You can't use yarn and npm at the same time for same project(same folder)
 Don't dare!
+
+# Update packages to latest version
+```bash
+npm install [package_name]@latest --save-dev
+-------
+pnpm add [package_name]@latest --save-dev
+-------
+yarn add [package_name]@latest --dev
+```
