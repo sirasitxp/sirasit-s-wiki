@@ -52,3 +52,12 @@ git reset --hard HEAD
 git log
 ```
 
+## Template
+```bash
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin [project_link]
+git push -u origin main
+```
